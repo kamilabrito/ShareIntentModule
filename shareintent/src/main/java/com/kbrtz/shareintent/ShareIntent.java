@@ -43,6 +43,10 @@ public class ShareIntent {
         this.context = context;
     }
 
+    public ShareIntent () {
+
+    }
+
     /**
      * Share a image, jpg or png, thought Intent Share in Android
      * @return return the intent thar will be shared
